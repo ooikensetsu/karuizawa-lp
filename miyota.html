@@ -284,62 +284,100 @@ button{font-family:inherit;}
       </p>
 
       <div class="mapbox">
-        <svg viewBox="0 0 640 460" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="御代田町と軽井沢町・小諸市・佐久市の位置関係">
-          <rect x="0" y="0" width="640" height="460" fill="#F6F2E9"/>
-          <text x="24" y="34" font-family="Zen Kaku Gothic New, sans-serif" font-size="17" font-weight="900" fill="#1E4438">東信地域のなかの御代田町</text>
-          <text x="24" y="54" font-family="Zen Kaku Gothic New, sans-serif" font-size="12" font-weight="700" fill="#5A6763">軽井沢町・小諸市・佐久市にかこまれた立地です</text>
+        <svg viewBox="0 0 760 660" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="東信地区の地図と御代田町の位置">
+          <rect x="0" y="0" width="760" height="660" fill="#F6F2E9"/>
+          <text x="24" y="36" font-family="Zen Kaku Gothic New, sans-serif" font-size="19" font-weight="900" fill="#1E4438">東信地区 ── 御代田町はどこ？</text>
 
           <!-- 方位 -->
-          <g transform="translate(590,44)">
+          <g transform="translate(716,34)">
             <circle r="20" fill="#fff" stroke="#DCD8CC"/>
             <path d="M0 -12 L5 3 L0 -1 L-5 3 Z" fill="#1E4438"/>
             <text x="0" y="-18" text-anchor="middle" font-family="Archivo Black, sans-serif" font-size="11" fill="#1E4438">N</text>
           </g>
 
-          <!-- 東御市（左上・一部） -->
-          <path d="M40 130 L110 96 L150 128 L128 190 L60 200 L30 166 Z" fill="#E4EDF2" stroke="#B9C6C0" stroke-width="2"/>
-          <text x="90" y="152" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="14" font-weight="900" fill="#3E4B46">東御市</text>
+          <!-- ============ 東信地区 10市町村 ============ -->
+          <!-- ⑤上田市 -->
+          <path d="M60 220 L150 190 L214 220 L226 300 L206 380 L150 440 L84 420 L44 350 L40 270 Z" fill="#E3DCEC" stroke="#B0A0CC" stroke-width="2.5"/>
+          <text x="128" y="300" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="17" font-weight="900" fill="#4A3D63">⑤ 上田市</text>
 
-          <!-- 小諸市 -->
-          <path d="M150 128 L246 94 L306 128 L292 196 L206 220 L128 190 Z" fill="#E4EDF2" stroke="#B9C6C0" stroke-width="2.5"/>
-          <text x="222" y="158" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="17" font-weight="900" fill="#3E4B46">小諸市</text>
+          <!-- ⑥青木村 -->
+          <path d="M84 420 L150 440 L152 486 L100 512 L64 476 Z" fill="#E3DCEC" stroke="#B0A0CC" stroke-width="2"/>
+          <text x="112" y="470" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="11.5" font-weight="700" fill="#4A3D63">⑥ 青木村</text>
 
-          <!-- 立科町（左下・一部） -->
-          <path d="M60 200 L128 190 L152 246 L96 288 L36 258 Z" fill="#E4EDF2" stroke="#B9C6C0" stroke-width="2"/>
-          <text x="98" y="240" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="13" font-weight="700" fill="#3E4B46">立科町</text>
+          <!-- ⑦長和町 -->
+          <path d="M150 440 L206 380 L262 404 L288 460 L246 520 L152 486 Z" fill="#EADFC4" stroke="#C7AD70" stroke-width="2.5"/>
+          <text x="212" y="464" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="13" font-weight="700" fill="#7A5A22">⑦ 長和町</text>
 
-          <!-- 軽井沢町 -->
-          <path d="M400 60 L512 44 L568 96 L546 172 L448 190 L392 130 Z" fill="#DDE9EE" stroke="#7FA7BE" stroke-width="2.5"/>
-          <text x="472" y="120" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="19" font-weight="900" fill="#2C5C4B">軽井沢町</text>
-          <text x="472" y="140" text-anchor="middle" font-family="Archivo Black, sans-serif" font-size="10" fill="#4A7C93" letter-spacing="1">KARUIZAWA</text>
+          <!-- ④東御市 -->
+          <path d="M214 220 L296 196 L342 224 L332 288 L262 306 L226 300 Z" fill="#CFE3B8" stroke="#8CAE68" stroke-width="2.5"/>
+          <text x="278" y="252" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="14.5" font-weight="900" fill="#3E5A2C">④ 東御市</text>
 
-          <!-- 御代田町：ハイライト（黒塗り） -->
-          <path d="M292 132 L392 100 L392 130 L448 190 L392 236 L306 228 L292 196 Z" fill="#16221E" stroke="#E5B84B" stroke-width="4"/>
-          <text x="372" y="172" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="19" font-weight="900" fill="#fff">御代田町</text>
-          <text x="372" y="192" text-anchor="middle" font-family="Archivo Black, sans-serif" font-size="10" fill="#E5B84B" letter-spacing="1">MIYOTA ／ このページ</text>
+          <!-- ③小諸市 -->
+          <path d="M342 224 L410 188 L470 214 L462 284 L390 316 L332 288 Z" fill="#BFE0DB" stroke="#5FA79C" stroke-width="2.5"/>
+          <text x="398" y="256" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="16" font-weight="900" fill="#215F55">③ 小諸市</text>
 
-          <!-- 佐久市（広いエリア：中込・岩村田・臼田方面） -->
-          <path d="M206 220 L292 196 L306 228 L392 236 L448 190 L470 260 L440 340 L340 388 L246 372 L190 300 Z" fill="#F1E6CC" stroke="#C9A96A" stroke-width="2.5"/>
-          <text x="330" y="300" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="19" font-weight="900" fill="#7A5A22">佐久市</text>
-          <text x="330" y="320" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="11.5" font-weight="700" fill="#8A7038">佐久平駅（新幹線）</text>
+          <!-- ⑧立科町 -->
+          <path d="M262 306 L332 288 L390 316 L378 368 L312 396 L246 366 L246 328 Z" fill="#C9DCE8" stroke="#6C93AA" stroke-width="2.5"/>
+          <text x="316" y="346" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="13.5" font-weight="700" fill="#2C5064">⑧ 立科町</text>
+
+          <!-- ①軽井沢町 -->
+          <path d="M566 128 L654 108 L706 156 L686 226 L602 246 L548 190 Z" fill="#CFE3B8" stroke="#8CAE68" stroke-width="2.5"/>
+          <text x="620" y="176" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="18" font-weight="900" fill="#3E5A2C">① 軽井沢町</text>
+
+          <!-- ②御代田町：ハイライト（黒塗り） -->
+          <path d="M462 214 L548 190 L602 246 L560 306 L470 296 L440 244 Z" fill="#16221E" stroke="#E5B84B" stroke-width="4.5"/>
+          <text x="521" y="248" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="18" font-weight="900" fill="#fff">② 御代田町</text>
+          <text x="521" y="268" text-anchor="middle" font-family="Archivo Black, sans-serif" font-size="10" fill="#E5B84B" letter-spacing="1">MIYOTA ／ このページ</text>
+
+          <!-- ⑨佐久市 -->
+          <path d="M378 368 L470 296 L560 306 L602 246 L640 300 L648 390 L590 470 L470 500 L378 460 L342 412 Z" fill="#F1D9A0" stroke="#C9A050" stroke-width="2.5"/>
+          <text x="512" y="404" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="19" font-weight="900" fill="#7A5A22">⑨ 佐久市</text>
+          <text x="512" y="424" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="11.5" font-weight="700" fill="#8A7038">佐久平駅（新幹線）</text>
+
+          <!-- ⑩佐久穂町 -->
+          <path d="M470 500 L590 470 L630 512 L600 570 L510 588 L460 546 Z" fill="#F0D3D6" stroke="#C98A93" stroke-width="2.5"/>
+          <text x="545" y="536" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="13.5" font-weight="700" fill="#8A4B52">⑩ 佐久穂町</text>
 
           <!-- しなの鉄道・北陸新幹線ライン -->
-          <path d="M60 210 L206 220 L292 196 L392 130 L472 120 L546 96" fill="none" stroke="#1E4438" stroke-width="2.5" stroke-dasharray="1 7" stroke-linecap="round"/>
-          <text x="150" y="204" font-family="Zen Kaku Gothic New, sans-serif" font-size="10" font-weight="700" fill="#5A6763">しなの鉄道・北陸新幹線</text>
+          <path d="M226 300 L332 288 L462 284 L548 190 L620 176" fill="none" stroke="#1E4438" stroke-width="2.5" stroke-dasharray="1 7" stroke-linecap="round"/>
+          <text x="256" y="278" font-family="Zen Kaku Gothic New, sans-serif" font-size="10.5" font-weight="700" fill="#5A6763">しなの鉄道・北陸新幹線</text>
 
-          <!-- 凡例 -->
-          <g font-family="Zen Kaku Gothic New, sans-serif" font-size="12" font-weight="700" fill="#5A6763">
-            <rect x="24" y="410" width="16" height="16" fill="#16221E"/>
-            <text x="46" y="423">御代田町（このページ）</text>
-            <rect x="224" y="410" width="16" height="16" fill="#DDE9EE" stroke="#7FA7BE"/>
-            <text x="246" y="423">軽井沢町</text>
-            <rect x="340" y="410" width="16" height="16" fill="#F1E6CC" stroke="#C9A96A"/>
-            <text x="362" y="423">佐久市</text>
-            <rect x="440" y="410" width="16" height="16" fill="#E4EDF2" stroke="#B9C6C0"/>
-            <text x="462" y="423">小諸市・東御市</text>
+          <!-- 凡例（番号対応） -->
+          <g font-family="Zen Kaku Gothic New, sans-serif" font-size="12.5" font-weight="700" fill="#5A6763">
+            <text x="24" y="600">① 軽井沢町　② 御代田町（このページ）　③ 小諸市　④ 東御市　⑤ 上田市</text>
+            <text x="24" y="622">⑥ 青木村　⑦ 長和町　⑧ 立科町　⑨ 佐久市　⑩ 佐久穂町</text>
+          </g>
+
+          <!-- ============ 小さいインセット：長野県内の東信地区 ============ -->
+          <g transform="translate(24,56)">
+            <rect x="0" y="0" width="212" height="176" rx="14" fill="#fff" stroke="#DCD8CC" stroke-width="1.5"/>
+            <text x="14" y="24" font-family="Zen Kaku Gothic New, sans-serif" font-size="12" font-weight="900" fill="#1E4438">長野県内の東信地区</text>
+
+            <path d="M118 34 L142 32 L156 48 L150 64 L124 66 L112 52 Z" fill="#D7D2C4"/>
+            <text x="134" y="53" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="8.5" font-weight="900" fill="#5A5646">北信</text>
+
+            <path d="M76 50 L112 48 L124 66 L116 100 L88 110 L66 92 L62 68 Z" fill="#D7D2C4"/>
+            <text x="92" y="82" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="8.5" font-weight="900" fill="#5A5646">中信</text>
+
+            <path d="M116 100 L88 110 L94 140 L120 150 L138 128 L132 106 Z" fill="#D7D2C4"/>
+            <text x="112" y="130" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="8.5" font-weight="900" fill="#5A5646">南信</text>
+
+            <path d="M124 66 L150 64 L156 48 L172 60 L168 92 L152 116 L132 106 L116 100 Z" fill="#8FBF6E"/>
+            <text x="146" y="86" text-anchor="middle" font-family="Zen Kaku Gothic New, sans-serif" font-size="10.5" font-weight="900" fill="#1E4438">東信</text>
+
+            <g font-family="Zen Kaku Gothic New, sans-serif" font-size="7.5" font-weight="700" fill="#9A9585">
+              <text x="128" y="14">新潟県</text>
+              <text x="176" y="46">群馬県</text>
+              <text x="180" y="96">埼玉県</text>
+              <text x="170" y="146">山梨県</text>
+              <text x="118" y="168">静岡県</text>
+              <text x="60" y="158">愛知県</text>
+              <text x="30" y="120">岐阜県</text>
+              <text x="34" y="60">富山県</text>
+            </g>
           </g>
         </svg>
-        <p class="cap">※ いずれも位置関係をわかりやすくするための簡略図です。行政界の正確な形状・縮尺とは異なります。御代田町は軽井沢町・小諸市・佐久市に囲まれ、しなの鉄道・北陸新幹線の沿線に位置しています。</p>
+        <p class="cap">※ 位置関係をわかりやすくするための簡略図です。行政界の正確な形状・縮尺とは異なります。御代田町（②）は軽井沢町（①）・小諸市（③）・佐久市（⑨）に囲まれ、しなの鉄道・北陸新幹線の沿線に位置しています。</p>
       </div>
 
       <h2>人口が増え続けている、いま選ばれている町</h2>
