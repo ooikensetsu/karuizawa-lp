@@ -392,9 +392,8 @@ button{font-family:inherit;}
 .compare .sub{font-size:13px;color:rgba(255,255,255,.6);margin-bottom:28px;}
 .bar-row{display:grid;grid-template-columns:132px 1fr 116px;align-items:center;gap:16px;margin-bottom:14px;}
 .bar-row .nm{font-weight:900;font-size:15px;}
-.bar-track{background:rgba(255,255,255,.12);border-radius:999px;height:30px;overflow:hidden;}
-.bar-fill{height:100%;border-radius:999px;background:var(--moss);}
-.bar-row.base .bar-fill{background:var(--ember);}
+.bar-track{background:rgba(255,255,255,.08);border-radius:999px;height:30px;overflow:hidden;}
+.bar-fill{display:block;height:100%;border-radius:999px;}
 .bar-row .val{text-align:right;font-family:var(--en);font-size:19px;}
 .bar-row .val i{font-style:normal;font-family:var(--jp);font-size:12px;font-weight:700;margin-left:3px;}
 .compare .disc{margin-top:20px;font-size:12px;color:rgba(255,255,255,.55);line-height:1.8;}
@@ -960,22 +959,22 @@ button{font-family:inherit;}
 
       <div class="bar-row base">
         <span class="nm">軽井沢町</span>
-        <span class="bar-track"><span class="bar-fill" style="width:100%"></span></span>
+        <span class="bar-track"><span class="bar-fill" style="width:100%;background:var(--ember);"></span></span>
         <span class="val">35<i>万円/坪</i></span>
       </div>
       <div class="bar-row">
         <span class="nm">御代田町</span>
-        <span class="bar-track"><span class="bar-fill" style="width:34%"></span></span>
+        <span class="bar-track"><span class="bar-fill" style="width:34%;background:var(--gold);"></span></span>
         <span class="val">12<i>万円/坪</i></span>
       </div>
       <div class="bar-row">
         <span class="nm">佐久市</span>
-        <span class="bar-track"><span class="bar-fill" style="width:26%"></span></span>
+        <span class="bar-track"><span class="bar-fill" style="width:26%;background:var(--moss);"></span></span>
         <span class="val">9<i>万円/坪</i></span>
       </div>
       <div class="bar-row">
         <span class="nm">小諸市</span>
-        <span class="bar-track"><span class="bar-fill" style="width:20%"></span></span>
+        <span class="bar-track"><span class="bar-fill" style="width:20%;background:var(--asama);"></span></span>
         <span class="val">7<i>万円/坪</i></span>
       </div>
 
